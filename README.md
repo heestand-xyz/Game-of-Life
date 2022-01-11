@@ -1,5 +1,5 @@
 # Game of Life
-Made in Swift &amp; Metal with PixelKit
+Made in Swift &amp; Metal with [PixelKit](https://github.com/heestand-xyz/PixelKit)
 
 ![](https://github.com/heestand-xyz/Game-of-Life/blob/main/Assets/Game%20of%20Life%20Render%200.png?raw=true)
 
