@@ -11,6 +11,7 @@
 		D3802169278E25540092BCA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3802168278E25540092BCA7 /* ContentView.swift */; };
 		D380216B278E25540092BCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D380216A278E25540092BCA7 /* Assets.xcassets */; };
 		D380216E278E25540092BCA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D380216D278E25540092BCA7 /* Preview Assets.xcassets */; };
+		D3802177278E25710092BCA7 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = D3802176278E25710092BCA7 /* PixelKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3802177278E25710092BCA7 /* PixelKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = "Game of Life";
+			packageProductDependencies = (
+				D3802176278E25710092BCA7 /* PixelKit */,
+			);
 			productName = "Game of Life";
 			productReference = D3802163278E25540092BCA7 /* Game of Life.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = D380215A278E25540092BCA7;
+			packageReferences = (
+				D3802175278E25710092BCA7 /* XCRemoteSwiftPackageReference "PixelKit" */,
+			);
 			productRefGroup = D3802164278E25540092BCA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3802175278E25710092BCA7 /* XCRemoteSwiftPackageReference "PixelKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heestand-xyz/PixelKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3802176278E25710092BCA7 /* PixelKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3802175278E25710092BCA7 /* XCRemoteSwiftPackageReference "PixelKit" */;
+			productName = PixelKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D380215B278E25540092BCA7 /* Project object */;
 }
