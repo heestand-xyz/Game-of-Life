@@ -353,7 +353,7 @@
 			repositoryURL = "https://github.com/heestand-xyz/PixelKit";
 			requirement = {
 				kind = exactVersion;
-				version = 2.2.3;
+				version = 2.2.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

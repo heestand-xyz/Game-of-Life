@@ -12,8 +12,6 @@ import PixelKit
 class GameOfLife: ObservableObject {
     
     let polygonPix = PolygonPIX(at: .square(2000))
-//    let starPix = StarPIX(at: .square(1000))
-//    let noisePix = NoisePIX(at: .square(1000))
     var sourcePix: (PIX & NODEOut)!
     let feedbackPix = FeedbackPIX()
     let metalEffectPix = MetalEffectPIX()
@@ -24,12 +22,8 @@ class GameOfLife: ObservableObject {
     
     
     init() {
+        
         polygonPix.radius = 1.0 / 3.0
-//        starPix.leadingRadius = 0.25
-//        starPix.trailingRadius = 0.125
-//        starPix.cornerRadius = 0.01
-//        noisePix.octaves = 10
-//        noisePix.zoom = 0.1
         
         sourcePix = polygonPix
         
