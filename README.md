@@ -1,5 +1,8 @@
 # Game of Life
+
 Made in Swift &amp; Metal with [PixelKit](https://github.com/heestand-xyz/PixelKit)
+
+Based on [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 ![](https://github.com/heestand-xyz/Game-of-Life/blob/main/Assets/Game%20of%20Life%20Render%200.png?raw=true)
 
