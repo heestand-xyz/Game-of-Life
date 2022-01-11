@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3802167278E25540092BCA7 /* Game_of_LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3802166278E25540092BCA7 /* Game_of_LifeApp.swift */; };
+		D3802167278E25540092BCA7 /* GameOfLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3802166278E25540092BCA7 /* GameOfLifeApp.swift */; };
 		D3802169278E25540092BCA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3802168278E25540092BCA7 /* ContentView.swift */; };
 		D380216B278E25540092BCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D380216A278E25540092BCA7 /* Assets.xcassets */; };
 		D380216E278E25540092BCA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D380216D278E25540092BCA7 /* Preview Assets.xcassets */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		D3802163278E25540092BCA7 /* Game of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3802166278E25540092BCA7 /* Game_of_LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_LifeApp.swift; sourceTree = "<group>"; };
+		D3802166278E25540092BCA7 /* GameOfLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeApp.swift; sourceTree = "<group>"; };
 		D3802168278E25540092BCA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D380216A278E25540092BCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D380216D278E25540092BCA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		D3802165278E25540092BCA7 /* Game of Life */ = {
 			isa = PBXGroup;
 			children = (
-				D3802166278E25540092BCA7 /* Game_of_LifeApp.swift */,
+				D3802166278E25540092BCA7 /* GameOfLifeApp.swift */,
 				D3802168278E25540092BCA7 /* ContentView.swift */,
 				D380216A278E25540092BCA7 /* Assets.xcassets */,
 				D380216F278E25540092BCA7 /* Game_of_Life.entitlements */,
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3802169278E25540092BCA7 /* ContentView.swift in Sources */,
-				D3802167278E25540092BCA7 /* Game_of_LifeApp.swift in Sources */,
+				D3802167278E25540092BCA7 /* GameOfLifeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +352,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/heestand-xyz/PixelKit";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				kind = exactVersion;
+				version = 2.2.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

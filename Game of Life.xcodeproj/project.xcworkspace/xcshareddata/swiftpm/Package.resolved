@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "CoreGraphicsExtensions",
+        "repositoryURL": "https://github.com/heestand-xyz/CoreGraphicsExtensions",
+        "state": {
+          "branch": null,
+          "revision": "a40dc230306daacb410f9a2f36f63a811ea2e88e",
+          "version": "1.2.1"
+        }
+      },
+      {
         "package": "PixelColor",
         "repositoryURL": "https://github.com/heestand-xyz/PixelColor",
         "state": {
@@ -15,8 +24,8 @@
         "repositoryURL": "https://github.com/heestand-xyz/PixelKit",
         "state": {
           "branch": null,
-          "revision": "ddeee6fe8418e4553b84156b0adc0029616be5af",
-          "version": "2.2.2"
+          "revision": "32a99e4a6358a83d2d0f58369b3c501adc8cc92f",
+          "version": "2.2.3"
         }
       },
       {
